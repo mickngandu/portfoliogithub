@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="portofolio.css"> <!-- Assurez-vous que votre feuille de style est liée -->
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"> <img src="2.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#" class="nav-link">Accueil</a></li>
+                <li><a href="portofolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="Mon cv.html" class="nav-link cv-link">Mon CV</a></li>
+                <li><a href="A propos de moi.html" class="nav-link">À propos de moi</a></li>
+            </ul>
+            <img src="menu.png" alt="" class="menu-icon">
+        </nav>
+    </header>
+    <div class="background-image">
+        <div class="container">
+            <form id="registerform" class="form" method="POST" action="register.php">
+                <h2>Inscription</h2>
+                <div class="form-control">
+                    <label for="nom">Nom :</label>
+                    <input type="text" class="input-control" name="nom" id="nom" required>
+                </div>
+                <div class="form-control">
+                    <label for="postnom">Postnom :</label>
+                    <input type="text" class="input-control" name="postnom" id="postnom" required>
+                </div>
+                <div class="form-control">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" class="input-control" name="prenom" id="prenom" required>
+                </div>
+                <div class="form-control">
+                    <label for="date-naissance">Date de naissance :</label>
+                    <input type="date" class="input-control" name="date-naissance" id="date-naissance" required>
+                </div>
+                <div class="form-control">
+                    <label for="sexe">Sexe :</label>
+                    <select class="input-control" name="sexe" id="sexe" required>
+                        <option value="M">Masculin</option>
+                        <option value="F">Féminin</option>
+                    </select>
+                </div>
+                <div class="form-control">
+                    <label for="mot-de-passe">Mot de passe :</label>
+                    <input type="password" class="input-control" name="mot-de-passe" id="mot-de-passe" required>
+                </div>
+                <div class="form-control">
+                    <input type="submit" value="S'inscrire" class="btn">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

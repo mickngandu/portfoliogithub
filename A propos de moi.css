@@ -1,0 +1,140 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tw Cen Mt', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 10px;
+}
+
+nav .logo {
+    width: 170px;
+}
+
+nav .menu-icon {
+    width: 60px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px; 
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #2eaff051;
+}
+
+/* Styles for the about section */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-section {
+    max-width: 600px;
+    padding: 30px;
+    background-color: #2eaff05f;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
+.about-section {
+    max-width: 600px;
+    padding: 30px;
+    background-color: rgba(46, 176, 240, 0.8); /* Couleur de fond avec 80% d'opacité */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+/* Styles pour la barre de navigation */
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+    transition: background-color 0.3s, padding 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; /* Couleur du texte blanc */
+}
+
+nav ul li:hover {
+    background-color: #2eaff04c;
+    padding: 12px 22px;
+}
+
+/* Styles pour la boîte de texte centrale */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-section {
+    max-width: 600px;
+    padding: 30px;
+    background-color: #f8f8f87b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
